@@ -1,0 +1,62 @@
+
+* {
+    padding: 0;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.page_turn {
+    width: 500px;
+    height: 100px;
+    margin: 100px auto;
+}
+
+.page_turn .prevPage , .page_turn .nextPage {
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    margin-right: 5px;
+    display: inline-block;
+    border: 1px solid dodgerblue;
+    color: dodgerblue;
+    padding: 0 5px;
+}
+.page_turn .num ,.page_turn .spacing {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    margin-right: 5px;
+    color: dodgerblue;
+    border: 1px solid dodgerblue;
+}
+.page_turn .spacing {
+    border: 0px;
+}
+.page_turn .curPage {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 5px;
+    border: 1px solid dodgerblue;
+    background-color: dodgerblue;
+    color: white;
+}
+.page_turn .disabled {
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 5px;
+    display: inline-block;
+    background: #ccc;
+    color: #333;
+    padding: 0 5px;
+
+}

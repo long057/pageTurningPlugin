@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+
+    <div class="page_turn"></div>
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/index.js"></script>
+
+    <script>
+
+        $('.page_turn').createPageTurn({
+            totalPage: 14,
+            curPage: 9,
+            backFun: function (p) {
+                console.log(p);
+            }
+        })
+
+    </script>
+</body>
+</html>
